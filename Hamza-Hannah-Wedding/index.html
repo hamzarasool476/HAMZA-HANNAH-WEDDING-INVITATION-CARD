@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f0e5">
+  <title>Hamza & Hannah | Wedding Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="petals" id="petals"></div>
+  <div class="particles" id="particles"></div>
+
+  <!-- Opening Envelope -->
+  <section class="intro" id="intro">
+    <div class="intro-content">
+      <p class="eyebrow">A SPECIAL INVITATION FOR YOU</p>
+
+      <div class="envelope" id="envelope">
+        <div class="envelope-back"></div>
+        <div class="letter">
+          <p>YOU ARE INVITED</p>
+          <h2>Hamza <span>&</span> Hannah</h2>
+          <small>25 December 2025</small>
+        </div>
+        <div class="envelope-front"></div>
+        <div class="envelope-flap"></div>
+        <div class="seal" id="seal">♥</div>
+      </div>
+
+      <button class="gold-button" id="openBtn">
+        OPEN YOUR INVITATION ✨
+      </button>
+      <p class="tap-text">A beautiful love story awaits...</p>
+    </div>
+  </section>
+
+  <!-- Main Website -->
+  <main id="main" class="hidden">
+
+    <header class="hero">
+      <div class="ornament">✧ ❀ ✧</div>
+      <p class="eyebrow">TOGETHER WITH THEIR FAMILIES</p>
+
+      <h1 class="hero-title">The Wedding</h1>
+      <p class="subtitle">Celebration of Love</p>
+
+      <div class="couple">
+        <span>HAMZA</span>
+        <div class="heart">♥</div>
+        <span>HANNAH</span>
+      </div>
+
+      <p class="weds">JOYFULLY INVITE YOU TO CELEBRATE THEIR WEDDING</p>
+
+      <div class="hero-date">
+        <span>25</span>
+        <div>
+          <strong>DECEMBER</strong>
+          <small>THURSDAY · 2025</small>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">↓</div>
+    </header>
+
+    <section class="invitation section">
+      <div class="section-ornament">❀</div>
+      <p class="eyebrow">A NOTE FROM OUR HEARTS</p>
+      <h2>Our Forever Begins</h2>
+
+      <p class="message">
+        Two souls, one heart, and a lifetime of beautiful memories.
+        With love in our hearts and happiness in our eyes,
+        we invite you to join us as we begin our forever together.
+      </p>
+
+      <div class="names-script">
+        Hamza <span>&</span> Hannah
+      </div>
+      <p class="gold-text">TWO HEARTS · ONE BEAUTIFUL JOURNEY</p>
+    </section>
+
+    <!-- Countdown -->
+    <section class="countdown-section section">
+      <p class="eyebrow">THE BIG DAY</p>
+      <h2>Counting Our Blessings</h2>
+
+      <div class="countdown" id="countdown">
+        <div class="time-box">
+          <strong id="days">00</strong>
+          <span>DAYS</span>
+        </div>
+        <div class="time-box">
+          <strong id="hours">00</strong>
+          <span>HOURS</span>
+        </div>
+        <div class="time-box">
+          <strong id="minutes">00</strong>
+          <span>MINUTES</span>
+        </div>
+        <div class="time-box">
+          <strong id="seconds">00</strong>
+          <span>SECONDS</span>
+        </div>
+      </div>
+      <p id="countdownMessage" class="gold-text"></p>
+    </section>
+
+    <!-- Event details -->
+    <section class="event-section section">
+      <p class="eyebrow">SAVE THE DATE</p>
+      <h2>A Day to Remember</h2>
+
+      <div class="event-card">
+        <div class="event-icon">✧</div>
+        <h3>Wedding Celebration</h3>
+        <p class="event-date">25 December 2025</p>
+        <p>Time: To Be Announced</p>
+        <p>Venue: To Be Announced</p>
+        <p class="gold-text">HAMZA RASOOL ♥ HANNAH WELLS</p>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery-section section">
+      <p class="eyebrow">MOMENTS OF LOVE</p>
+      <h2>Our Beautiful Story</h2>
+
+      <div class="gallery">
+        <div class="gallery-item">
+          <div class="gallery-placeholder">❀</div>
+          <p>A Beautiful Beginning</p>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">♥</div>
+          <p>Forever Together</p>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">✧</div>
+          <p>Our Special Day</p>
+        </div>
+      </div>
+      <p class="gallery-note">Replace these decorative placeholders with your favorite couple photographs.</p>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp-section section">
+      <p class="eyebrow">WE WOULD LOVE TO SEE YOU</p>
+      <h2>Will You Join Us?</h2>
+      <p>Your presence will make our celebration even more special.</p>
+
+      <form id="rsvpForm">
+        <input type="text" id="guestName" placeholder="Your Name" required>
+        <input type="number" id="guestCount" placeholder="Number of Guests" min="1" max="20" required>
+        <select id="attendance" required>
+          <option value="">Will you attend?</option>
+          <option value="Yes, I'll be there!">Joyfully Accept</option>
+          <option value="Sorry, cannot attend">Regretfully Decline</option>
+        </select>
+        <button class="gold-button" type="submit">SEND RSVP ♥</button>
+      </form>
+      <p id="rsvpMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-heart">♥</div>
+      <h2>Forever Starts Here</h2>
+      <div class="names-script">Hamza & Hannah</div>
+      <p>25 · 12 · 2025</p>
+      <p class="footer-small">MADE WITH LOVE ♥</p>
+    </footer>
+
+  </main>
+
+  <button id="musicBtn" class="music-button" aria-label="Toggle romantic music" hidden>♫</button>
+
+  <audio id="music" loop>
+    <source src="romantic-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
